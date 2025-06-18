@@ -309,10 +309,11 @@
 }
 
 .skill:hover, .tool:hover {
-  background: #00ff99;
-  color: #000;
+  box-shadow: 0 0 12px #00ff99, 0 0 20px #00ff99aa;
   cursor: default;
+  transform: scale(1.05);
 }
+
 
 .soft-skills {
   font-size: 1rem;
